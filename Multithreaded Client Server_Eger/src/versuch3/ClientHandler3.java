@@ -25,7 +25,8 @@ public class ClientHandler3 extends Thread {
 
         while(true){
             try{
-                dos.writeUTF("Hallo, wie kann ich Ihnen helfen?\nGeben sie EXIT ein, um die Verbindung zu trennen.");
+                //dos.writeUTF("Hallo, wie kann ich Ihnen helfen?\nGeben sie EXIT ein, um die Verbindung zu trennen.");
+                dos.writeUTF("");
                 recieved = dis.readUTF();
                 if (recieved.equals("EXIT")) {
                     System.out.println("Trenne Verbindung...");
