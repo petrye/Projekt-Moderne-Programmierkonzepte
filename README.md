@@ -22,7 +22,8 @@ Erstellt einen Client (Socket), der sich auf den lokalen Server verbindet
 6. zurück zu 2. und auf Eingabe warten
 
 ### ClientHandler:
-(Nur bei nicht funktionaler Variante verwendet)
+(Nur bei nicht funktionaler Variante verwendet).
+
 Subklasse von Thread, ein Objekt dieser Klasse wird bei jeder Clientanfrage an den Server erzeugt.
 run()-Methode: Fragt den Benutzer, was er machen will, liest die Antwort und schreibt zurück.
 Es müssen 3 Attribute bei der Objekterzeugung übergeben werden, damit jeder Client einen eigenen Input- & Outputstream erhält
