@@ -1,4 +1,4 @@
-# WIKI WURDE ERSTELLT
+# [[WIKI WURDE ERSTELLT | ]]
 
 # Multi-Client-Server
 
