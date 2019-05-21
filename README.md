@@ -1,3 +1,3 @@
-# DOKUMENTATION WURDE IM WIKI ERSTELLT
+# Die Dokumentation befindet sich im Wiki:
 
-Wiki: https://github.com/petrye/Projekt-Modere-Programmierkonzepte-/wiki/0.-Einführung 
+https://github.com/petrye/Projekt-Modere-Programmierkonzepte-/wiki/0.-Einführung 
