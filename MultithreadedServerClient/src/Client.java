@@ -8,7 +8,7 @@ public class Client {
 		
 		try {
 			
-			// Variablen für (Client-) SocketSocket
+			// Variablen fÃ¼r (Client-) Socket
 			InetAddress ip = InetAddress.getLocalHost();
 			int port = 9000;
 			Socket s = new Socket(ip, port);
@@ -25,12 +25,12 @@ public class Client {
 				// Nachfrage vom Server
 				System.out.println(dis.readUTF());
 				
-				// Eingabe scannen und dem Outputstream übergeben; Senden an Server
+				// Eingabe scannen und dem Outputstream Ã¼bergeben; Senden an Server
 				String toSend = scn.nextLine();
 				dos.writeUTF(toSend);
 				
-				// Überprüfung der Abbruchbedingung
-				// Socket schließen und Endlosschleife beenden
+				// ÃœberprÃ¼fung der Abbruchbedingung
+				// Socket schlieÃŸen und Endlosschleife beenden
 				if (toSend.equals("Exit")) {
 					System.out.println("Trenne Verbindung: " + s);
 					s.close();
@@ -50,7 +50,7 @@ public class Client {
 			dos.close();
 		
 		}catch (IOException e) {
-			// Input- und Outputstream, Scanner und .getLocalHost() können Fehler werfen
+			// Input- und Outputstream, Scanner und .getLocalHost() kÃ¶nnen Fehler werfen
 			e.printStackTrace();
 		}
 		
